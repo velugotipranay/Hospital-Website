@@ -10,4 +10,4 @@ Check out the code in which i have added comments for better understanding.
 
 
 # Improvements can be
-Adding JavaScript for getting patient's data from website.
+JavaScript can be used for backend.
