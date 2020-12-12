@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAS Appointment Form</title>
+	<link rel="stylesheet" type="text/css" href="appointment.css" />
+	<script type="text/javascript" src="appointment.js">
+	</script>
+		
+</head>
+<body>
+	<body onload="displayPresentTime()">
+		<main>
+		<div>
+			<table align="left" style="margin:0px;" >
+		    	<tr>
+		    		<td class="reduceSize">
+					    <a href="index.html"><img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\CAS logo final.png" alt="logo" style="width:70px; height:70px;"/></a>
+				    </td>
+				    <td>
+			            <h1 class="reduceSize"> <a href="index.html"><font color="black" style="text-shadow: 3px 3px 3px gray;">CAS</font><font color="lime" style="text-shadow: 5px 3px 3px black;"> HOSPITAL</font></a></h1>
+				    </td>
+				    <td class="disappear">
+				    	<pre>    </pre>
+				    </td>
+		    		<td >
+		    			<font> <a href="index.html"><img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\home icon.png" alt="Home" style="width:80px; height:70px;"></a></font>
+		    		</td>
+		    		<td class="disappear">
+		    			<pre>                             </pre> 
+		    		</td>
+		    		<td class="smallfont">
+		    			<b style="background-color: white">(yyyy-mm-dd)</b>
+		    		</td>
+		    		<td>
+		    			<h4 id="Time"></h4>
+		    		</td>
+		    		<td>
+		    			<img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\clock.png" id="clock">
+		    		</td>
+	        </table>
+		</div>
+		<br><br><br><br><br><br>
+		<h1 style="font-size:40px;color:black ;font-family:Calibri; text-align:center;background:linear-gradient(to right,yellow,white);box-shadow:5px 0px 10px blue;">Appointment Form<br><font color="blue">Patient Details</font></h1>
+		<div class="border" >
+		
+			<form name="myform" action="formsubmission.html" method="POST" target="_self" align="center" style="opacity: 10;" onsubmit="return validate()">
+				
+				<table align="center" >
+					<tr>
+						<td> <font style="font-size:x-large;font-weight:bolder;font-family: Georgia, 'Times New Roman', Times, serif;"><b><i>Select the specialist doctor whom to consult</i></b></font><br><br>
+							
+							<select name="Specialist" onchange="handleSpecialistImage(this.value)">
+								<option value=""><b>Select the specailist doctor </b></option>
+								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\Cardiologist BG.png">Cardiologist</option>
+								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\pulmonology.jpg">pulmonologist</option>
+								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\ENT.jpg">ENT</option>
+								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\orthopedic 2.jpg">Orthopedic</option>
+								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\dentist.jpg">Dentist</option>                                         
+				            </select>
+						</td>
+					</tr>
+					<tr>
+                       <td><h5><a href="specialists.html" ><p style="font-size:x-large;font-family: Georgia, 'Times New Roman', Times, serif;">Click here to know about specialists</p></a></h5></td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="patientname" placeholder="Enter patient-name" size="25" required class="user" onfocus="change(this)" onblur="retain(this)" /><br><br>					
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="number" name="Age" placeholder="Enter Age" min="0"  size="35" required class="age" onfocus="change(this)" onblur="retain(this)"/><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font style="font-size:25px;color: darkblue"><b>Gender</b></font>
+							<input type="radio" name="gender" required /><font style="font-family:Calibri;font-size:25px" ><b>Male</b></font>
+							<input type="radio" name="gender"/><font style="font-family:Calibri;font-size:25px" ><b>Female</b></font><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="text" name="email"  required placeholder="Enter Email" size="25" required class="email" onfocus="change(this)" onblur="retain(this)" /><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input type="tel" name="phoneNumber" placeholder="Phone Number" maxlength="10"  required  class="mobile"  onfocus="change(this)" onblur="retain(this)"/><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<select name="blood-group" placeholder="blood-group" class="blood" onfocus="change(this)" onblur="retain(this)">
+								<option value="Select Blood Group"><b>&nbsp &nbsp &nbsp Select patient's blood group</b></option>
+								<option value="A+">&nbsp &nbsp &nbsp A+</option>
+								<option value="O+"> &nbsp &nbsp &nbsp O+</option>
+								<option value="B+">&nbsp &nbsp &nbsp B+</option>
+								<option value="AB+" >&nbsp &nbsp &nbsp AB+</option>
+								<option value="A-">&nbsp &nbsp &nbsp A-</option>
+								<option value="O-" >&nbsp &nbsp &nbsp O-</option>
+								<option value="B-">&nbsp &nbsp &nbsp B-</option>
+								<option value="AB-">&nbsp &nbsp &nbsp AB-</option>
+							</select><br>	
+						</td>
+					</tr><br>
+					<tr>
+						<td>
+							<font style="font-size:x-large;font-weight: bolder;">(<b>Blood group is</b> <b style="color:black">optional)</b></font><br><br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<font style="font-size:20;background-color: yellow;" class="input"><b>Visit date</b></font><br><br>
+							<input type="date" name="Date of Appointment" placeholder="Date of Appointment"required onfocus="change(this)" onblur="retain(this)" id="Date" /><br><br>
+							
+							<input type="checkbox" required/><font color="black" style="font-family: Calibri;text-transform: capitalize; font-size:25px;" onfocus="change(this)" onblur="retain(this)"><b>click if you entered all above details</b></font><br><br>
+							<input type="submit" value="Book Appointment" style="font-size:1.5em;font-weight: 700;"
+							 /><br><br><br>
+							<input type="reset" name="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\BG FOR MAIN.jpg" value="Clear" onclick="return clearfun(this)"/>
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
+	</main>
+	</body>
+     
+
+</html>
