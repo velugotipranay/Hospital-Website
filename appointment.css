@@ -1,5 +1,5 @@
 body{
-    background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\BG FOR MAIN.jpg");
+    background-image: url("images\\BG FOR MAIN.jpg");
     background-size: cover;
    
 }
@@ -47,7 +47,7 @@ h2 a img:hover{
 }
 .border{
    border: 2px solid blue;
-   background: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\BG 7.png");
+   background: url("images\\BG 7.png");
    background-size:cover;
    background-position: left;	
    display: flex;
@@ -174,31 +174,31 @@ kbd{
    box-shadow: 0 1px 1px rgba(0,0,0,.2),0 2px 0 0 rgba(255,255,255,7) insert;
 }
 .user{
-   background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\user.png");
+   background-image: url("images\\user.png");
    background-position:1px 3px;
    background-repeat: no-repeat;
    background-size: 40px 30px;
 }
 .mobile{
-   background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\mobile.jpg");
+   background-image: url("images\\mobile.jpg");
    background-position: 5px 5px;
    background-repeat: no-repeat;
    background-size: 30px 30px;
 }
 .email{
-   background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\mail.png");
+   background-image: url("images\\mail.png");
    background-position: 5px 5px;
    background-repeat: no-repeat;
    background-size: 40px 30px;
 }
 .age{
-   background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\age.png");
+   background-image: url("images\\age.png");
    background-position: 5px 5px;
    background-repeat: no-repeat;
    background-size: 30px 30px;
 }
 .blood{
-   background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\blood.png");
+   background-image: url("images\\blood.png");
    background-position: 5px 5px;
    background-repeat: no-repeat;
    background-size: 45px 30px;
