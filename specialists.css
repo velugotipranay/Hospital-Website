@@ -94,6 +94,7 @@
 			font-size: 30px;
 			font-style:italic;
 			color:darkblue;
+			font-weight:bold;
 
 		}
 		a{
@@ -165,7 +166,7 @@
 			font-size:30px;
 		    }
 		       #box-1{
-			width: 100%;
+			width: 90%;
 			flex-direction: column;
 			align-self: flex-end;
 			font-size: 25px;
