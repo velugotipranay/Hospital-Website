@@ -1,130 +1,184 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>CAS Appointment Form</title>
-	<link rel="stylesheet" type="text/css" href="appointment.css" />
-	<script type="text/javascript" src="appointment.js">
-	</script>
+	<title>CAS HOSPITAL</title>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a model hospital webiste designed for study purpose">
+	<meta na,e="keywords" content="HTML ,website,hospital webiste">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	
+	<script type="text/javascript" src="index.js">
 		
+	</script>
+	    
 </head>
 <body>
-	<body onload="displayPresentTime()">
-		<main>
-		<div>
-			<table align="left" style="margin:0px;" >
-		    	<tr>
-		    		<td class="reduceSize">
-					    <a href="index.html"><img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\CAS logo final.png" alt="logo" style="width:70px; height:70px;"/></a>
+	<!-- for scrolling the amettr at top of website-->
+	<marquee scrollamount="10" onmouseover="stop()" onmouseout="start()" style="background-color:skyblue;"><font style="font-family: calibri;font-size: 30px;"> ⚠️WEAR MASK...WASH HANDS REGULARLY...MAINTAIN SOCIAL DISTANCE..LET'S FIGHT CORONA VIRUS TOGETHER !!⚠️</font></marquee> 
+	<!-- flex box for title and 2 marquees-->
+	<div id="top-box">
+		<div id="top-box-1">
+			<marquee direction="down" scrollamount="4" behavior="alternate" text-align="right" height="200px" width="230px" ><img src="images\\SuperHero-Mask-wearers.png" style="height:160px;" alt="mask image"></marquee>
+		</div>
+		<div id="top-box-2">
+			<table>
+				<tr>
+					<td>
+					    <a href="index.html"><img src="images\CAS logo final.png" alt="logo" style="width:70px; height:70px;"/></a>
 				    </td>
 				    <td>
-			            <h1 class="reduceSize"> <a href="index.html"><font color="black" style="text-shadow: 3px 3px 3px gray;">CAS</font><font color="lime" style="text-shadow: 5px 3px 3px black;"> HOSPITAL</font></a></h1>
+			            <h1> <a href="index.html"><font color="black" style="text-shadow: 3px 3px 3px gray;">CAS</font><font color="lime" style="text-shadow: 5px 3px 3px black;"> HOSPITAL</font></a></h1>
 				    </td>
-				    <td class="disappear">
-				    	<pre>    </pre>
+				</tr>
+			</table>		
+		</div>
+		<div id="top-box-3">
+			<marquee direction="up" scrollamount="4" behavior="slide" text-align="right" height="220px" width="350px" ><img src="images\\covid 19.jpg" style="height:200px;border-style: groove;" alt="mask image"></marquee>
+		</div>
+	</div>
+	<!-- this flex is not displayed untill width of window is greater than 900px-->
+    <div id="small-box">
+    	<div id="empty">
+    	
+    	</div>
+    	<table>
+				<tr>
+					<td>
+					    <a href="index.html"><img src="images\CAS logo final.png" alt="logo" style="width:70px; height:70px;"/></a>
 				    </td>
-		    		<td >
-		    			<font> <a href="index.html"><img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\home icon.png" alt="Home" style="width:80px; height:70px;"></a></font>
-		    		</td>
-		    		<td class="disappear">
-		    			<pre>                             </pre> 
-		    		</td>
-		    		<td class="smallfont">
-		    			<b style="background-color: white">(yyyy-mm-dd)</b>
-		    		</td>
-		    		<td>
-		    			<h4 id="Time"></h4>
-		    		</td>
-		    		<td>
-		    			<img src="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\clock.png" id="clock">
-		    		</td>
-	        </table>
-		</div>
-		<br><br><br><br><br><br>
-		<h1 style="font-size:40px;color:black ;font-family:Calibri; text-align:center;background:linear-gradient(to right,yellow,white);box-shadow:5px 0px 10px blue;">Appointment Form<br><font color="blue">Patient Details</font></h1>
-		<div class="border" >
-		
-			<form name="myform" action="formsubmission.html" method="POST" target="_self" align="center" style="opacity: 10;" onsubmit="return validate()">
-				
-				<table align="center" >
-					<tr>
-						<td> <font style="font-size:x-large;font-weight:bolder;font-family: Georgia, 'Times New Roman', Times, serif;"><b><i>Select the specialist doctor whom to consult</i></b></font><br><br>
-							
-							<select name="Specialist" onchange="handleSpecialistImage(this.value)">
-								<option value=""><b>Select the specailist doctor </b></option>
-								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\Cardiologist BG.png">Cardiologist</option>
-								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\pulmonology.jpg">pulmonologist</option>
-								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\ENT.jpg">ENT</option>
-								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\orthopedic 2.jpg">Orthopedic</option>
-								<option value="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\dentist.jpg">Dentist</option>                                         
-				            </select>
-						</td>
-					</tr>
-					<tr>
-                       <td><h5><a href="specialists.html" ><p style="font-size:x-large;font-family: Georgia, 'Times New Roman', Times, serif;">Click here to know about specialists</p></a></h5></td>
-					</tr>
-					<tr>
-						<td>
-							<input type="text" name="patientname" placeholder="Enter patient-name" size="25" required class="user" onfocus="change(this)" onblur="retain(this)" /><br><br>					
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="number" name="Age" placeholder="Enter Age" min="0"  size="35" required class="age" onfocus="change(this)" onblur="retain(this)"/><br><br>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<font style="font-size:25px;color: darkblue"><b>Gender</b></font>
-							<input type="radio" name="gender" required /><font style="font-family:Calibri;font-size:25px" ><b>Male</b></font>
-							<input type="radio" name="gender"/><font style="font-family:Calibri;font-size:25px" ><b>Female</b></font><br><br>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="text" name="email"  required placeholder="Enter Email" size="25" required class="email" onfocus="change(this)" onblur="retain(this)" /><br><br>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<input type="tel" name="phoneNumber" placeholder="Phone Number" maxlength="10"  required  class="mobile"  onfocus="change(this)" onblur="retain(this)"/><br><br>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<select name="blood-group" placeholder="blood-group" class="blood" onfocus="change(this)" onblur="retain(this)">
-								<option value="Select Blood Group"><b>&nbsp &nbsp &nbsp Select patient's blood group</b></option>
-								<option value="A+">&nbsp &nbsp &nbsp A+</option>
-								<option value="O+"> &nbsp &nbsp &nbsp O+</option>
-								<option value="B+">&nbsp &nbsp &nbsp B+</option>
-								<option value="AB+" >&nbsp &nbsp &nbsp AB+</option>
-								<option value="A-">&nbsp &nbsp &nbsp A-</option>
-								<option value="O-" >&nbsp &nbsp &nbsp O-</option>
-								<option value="B-">&nbsp &nbsp &nbsp B-</option>
-								<option value="AB-">&nbsp &nbsp &nbsp AB-</option>
-							</select><br>	
-						</td>
-					</tr><br>
-					<tr>
-						<td>
-							<font style="font-size:x-large;font-weight: bolder;">(<b>Blood group is</b> <b style="color:black">optional)</b></font><br><br>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							<font style="font-size:20;background-color: yellow;" class="input"><b>Visit date</b></font><br><br>
-							<input type="date" name="Date of Appointment" placeholder="Date of Appointment"required onfocus="change(this)" onblur="retain(this)" id="Date" /><br><br>
-							
-							<input type="checkbox" required/><font color="black" style="font-family: Calibri;text-transform: capitalize; font-size:25px;" onfocus="change(this)" onblur="retain(this)"><b>click if you entered all above details</b></font><br><br>
-							<input type="submit" value="Book Appointment" style="font-size:1.5em;font-weight: 700;"
-							 /><br><br><br>
-							<input type="reset" name="E:\\PRANAY\\WEB DEV\\Hospital website\\images\\BG FOR MAIN.jpg" value="Clear" onclick="return clearfun(this)"/>
-						</td>
-					</tr>
-				</table>
-			</form>
-		</div>
-	</main>
-	</body>
-     
-
-</html>
+				    <td>
+			            <h1> <a href="index.html"><font color="black" style="text-shadow: 3px 3px 3px gray;">CAS</font><font color="lime" style="text-shadow: 5px 3px 3px black;"> HOSPITAL</font></a></h1>
+				    </td>
+				</tr>
+			</table>	
+    	
+    </div>
+    <!-- creating unordered list for navigation links menu at top of website-->
+    <ul>
+    	<br>
+    	<li><a href="index.html">Home</a></li>
+    	<li><a href="appointment.html">Appointment </a></li>
+    	<li><a href="specialists.html">Specialists </a>
+    		<ul >
+	           	<li><a href="specialists.html" style="font-size: 25px;">Cardiologist</a></li>
+	           	<li><a href="specialists.html"style="font-size: 25px;">Pulmonologist</a></li>
+	           	<li><a href="specialists.html" style="font-size:25px;">ENT</a></li>
+	           	<li><a href="specialists.html"style="font-size: 25px;">Orthopedic</a></li>
+	          
+	           	<li><a href="specialists.html"style="font-size: 25px;">Dentist</a></li>
+	           
+            </ul>
+    	</li>
+    	<li><a href="aboutus.html"> About us </a></li>
+    	<li><a href="aboutus.html"> Contact</a></li>
+    	<li><a href="aboutus.html">Feedback </a></li>
+    </ul>
+    </div>
+    </span>
+	
+    <br>
+    <!-- this is for quick appointmnet -->
+   
+	<div align="center">
+		<a href="appointment.html" alt="book appointment"><img src="images\book appointment 1.png" width="300px" height="200px"/></a>
+	</div>	
+    <table>
+		<table>
+			<p class="heading"><b><i>Latest technology used in our hospital</p>
+			<tr style="border-style: solid;border-color: black;">
+				<td>
+					<figure >
+						<img src="images\spct-ct-technology.jpg" alt="SPECT/CT-Scan" style="width: 130px" />
+						<figcaption onmouseover="changethis(this)" onmouseout ="retainthis(this)" style="font-family:elephant;font-size:20px;color:white;padding:7px;background-color:black;">SPECT/CT</figcaption>
+					</figure>
+					
+				</td>
+				<td>
+				<p id="reduce1" onmouseover="changeColor(this)" onmouseout ="retainColor(this)"><b>SPECT/CT is an advanced and highly integrated diagnostic solution.It expands the role of nuclear medicine into routine surgical planning, orthopedics,advanced cardiology, and much more.It offers minimum dose and maximum speed while providing the highest possible image quality. </b></p></td>
+			</tr>
+		</table>
+		<table>
+			<tr style="border-style: solid;border-color: black;">
+				<td>
+					<figure>
+						<img src="images\novalis.jpg" alt="LINAC Accelerator" style="width: 150px" />
+						<figcaption onmouseover="changethis(this)" onmouseout ="retainthis(this)" style="font-family:eras;font-size:15px;color:white;padding:15px;background-color:black;">LINAC Accelerator</figcaption>
+					</figure>
+					
+				</td>
+				<td> 
+					<p id="reduce2" onmouseover="changeColor(this)" onmouseout ="retainColor(this)">Novalis Tx is a radiosurgery system that is one of the most advanced cancer treatments available. Radiosurgery is a highly precise form of radiation therapy that uses a beam of energy that is shaped to match the outline of the tumor.It delivers energy precisely where it is needed. </p></td>
+				  
+		    </tr>
+	    </table>
+	    <table>
+			<tr style="border-style: solid;border-color: black;">
+				<td>
+					<figure>
+						<img src="images\hdr.jpg" alt="High Dose Rate (HDR)" style="width: 150px"  />
+						<figcaption onmouseover="changethis(this)" onmouseout ="retainthis(this)" style="font-family:monospace;font-size:20px;color:white;padding:13px;background-color:black;">HDR</figcaption>
+					</figure>
+					
+				</td>
+				<td >
+				<p id="reduce3" onmouseover="changeColor(this)" onmouseout ="retainColor(this)">High-dose rate (HDR) brachytherapy involves placing a protected source of high energy radiation directly within the tumor and using radioactive plaques, needles, or small "seeds" made of radionuclides.
+				These radioactive materials are placed over the surface of the tumor, implanted within the tumor, or placed within a body cavity surrounded by the tumor.</p></td>
+		    </tr>
+	    </table>
+	    <table>
+			<tr style="border-style: solid;border-color: black;" >
+				<td>
+					<figure >
+						<img src="images\digitalized-xray-technology.jpg" alt="Digitalized X-Ray, USG, CT-Scan, MRI" style="width: 150px"  />
+						<figcaption onmouseover="changethis(this)" onmouseout ="retainthis(this)"  style="font-family:Calibri;font-size:15px;color:white;padding:15px;background-color:black;">Digitalized X-Ray,USG,CT-Scan,MRI</figcaption>
+					</figure>
+					
+				</td>
+				<td> 
+				<p id="reduce4" onmouseover="changeColor(this)" onmouseout ="retainColor(this)">An MRI uses a powerful magnetic field combined with specific radio frequencies to create detailed images of internal body structures with the aid of a sophisticated computing system. The internal parts of our body can be seen without needing invasive and risky surgery to do so. The invention of the X-ray helped revolutionize modern medicine, evolving into what we use today, called the digital X-ray.</p></td>
+		    </tr>
+	    </table>
+	    <table>
+			<tr style="border-style: solid;border-color: black;" >
+				<td>
+					<figure >
+						<img src="images\eeg.jpg" alt="EEG"  style="width: 150px" />
+						<figcaption onmouseover="changethis(this)" onmouseout ="retainthis(this)" style="font-family:elephant;font-size:30px;color:white;padding:20px;background-color:black;">EEG</figcaption>
+					</figure>
+					
+				</td>
+				<td>
+				<p id="reduce5" onmouseover="changeColor(this)" onmouseout ="retainColor(this)">The electroencephalogram (EEG) is a measure of brain waves. It is a readily available test that provides evidence of how the brain functions over time.During an EEG test, small electrodes are placed on to your scalp.</p></td>
+		    </tr>
+		</table>
+    </table>
+    <!-- for navigation links in footer of website-->
+    <div id="box">
+    	<div id="box-1">
+    		<p>
+    			<font color="lime"> &copy Devloped by Pranay</font>
+    		</p>
+    	</div>
+    	<div id="box-2">
+    		<ol >
+		    	<br>
+		    	<li><a href="index.html" > Home </a></li>
+		    	<li><a href="appointment.html">Appointment </a></li>
+		    	<li><a href="Specialists.html"> Specialists </a></li>
+		    </ol>
+     	</div>
+     	<div id="box-3">
+    		<ol 8>
+		    	<br>
+		    	<li><a href="aboutus.html"> About</a></li>
+		    	<li><a href="aboutus.html">Contact us</a></li>
+		    	<li><a href="aboutus.html">Feedback </a></li>
+		    </ol>
+     	</div><br>
+     	<div id="box-4">
+     		<font style="color:yellow;">follow IEEE CAS for more projetcs in <br><a href="https://www.linkedin.com/company/ieee-circuits-and-systems-society-cass/mycompany/"><img src="images\\linkedin logo.png" alt="llinkedin logo" style="height: 40px;"/></a>&nbsp &nbsp <a href="https://www.facebook.com/IEEE-Circuits-and-Systems-VIT-510547166144799/"><img src="images\\fb logo.png" alt="fb logo" style="height: 32px;"/></a>&nbsp &nbsp <a href="https://www.instagram.com/ieee_cas_vit/?hl=en"><img src="images\\insta logo.jpg" alt="insta logo" style="height: 40px;"/></a></font>     		
+     	</div>
+	  
+    </div>
+</body>
+</html> 
