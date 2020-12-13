@@ -166,7 +166,7 @@
 			font-size:30px;
 		    }
 		       #box-1{
-			width: 90%;
+			width:100%;
 			flex-direction: column;
 			align-self: flex-end;
 			font-size: 25px;
