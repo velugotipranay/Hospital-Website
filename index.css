@@ -206,21 +206,10 @@ a img:hover{
     display: inline;
     border:2px groove transparent;
     margin-left: 50px;
-    animation-name: appointment;
-    animation-duration:2s;
-    animation-iteration-count:3;
-    animation-timing-function: ease-out;
-    position:relative;
-    animation-direction:alternate;
-
 }
-@keyframes appointment{
-    from{background-color:red;color:yellow;left:2%}
-    to{background-color:aqua;color: black;left:20%;}
 
-}
 /*this  media query is for reducong size of font in footer when width is less than 900px*/
-@media(max-width:900px){
+@media(max-width:1300px){
     #box{
         background-color: black;
         width:100%;
@@ -270,7 +259,7 @@ a img:hover{
 
 }
 /*this  media query is for not displaying marquees and displaying only title in title when width is less than 900px*/
-@media(max-width: 900px){
+@media(max-width: 1300px){
     #top-box{
     width: 100%;
     height: 100%;
