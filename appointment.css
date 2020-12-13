@@ -214,7 +214,7 @@ kbd{
    font-size:x-large;font-weight:bolder;
 
 }
-@media(max-width:1300px){
+@media(max-width:700px){
    table tr td h4{
    font-size: 20px;border:2px groove transparent;box-shadow:5px 5px 30px black;background-color:lime;color:black;font-weight: bolder;
    }
