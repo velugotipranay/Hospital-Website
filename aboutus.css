@@ -12,6 +12,10 @@ p{
     width:80%;
     margin-left: 50px;
 }
+#different{
+	color:lime;
+	font-style:italic;
+}
 ol li a{
 		    text-decoration: none;
 		    color:white;
@@ -144,5 +148,10 @@ p a:hover{
 			align-self: flex-end;
 			font-size: 25px;
 		    }
+		    #different{
+		color:lime;
+		font-style:italic;
+	    
+               }
     
 }
