@@ -45,7 +45,7 @@ p a:hover{
     color: black;
     font-size: 30px;
 }
-@media(max-width:650px){
+@media(max-width:1000px){
     p{
         font-size:25px ;
         font-family:times new roman;
