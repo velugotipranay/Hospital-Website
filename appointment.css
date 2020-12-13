@@ -224,10 +224,10 @@ kbd{
       background-color:white;
       box-shadow:5px 5px 30px black;
    }
-  /* #clock{
+   #clock{
        display: none;
 
-   }*/
+   }
    .reduceSize{
       font-size:22px;
    }
