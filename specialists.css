@@ -173,7 +173,7 @@
 			width:100%;
 			border:2px ridge black;
 			display: flex;
-            height:500px; 
+          		height:500px; 
 
 		}
 		#dentist{
@@ -181,7 +181,8 @@
 			width:100%;
 			border:2px ridge black;
 			display: flex;
-            height:500px; 
+            		height:500px; 
+			flex-directon:row;
 		    #box-0{
 			background-color: black;
 			width:100%;
