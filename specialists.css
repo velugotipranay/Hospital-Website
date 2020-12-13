@@ -1,5 +1,5 @@
 	body{
-			background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\BG FOR MAIN.jpg");
+			background-image: url("images\\BG FOR MAIN.jpg");
 			opacity: 0.90;
 		}
 		h1{
@@ -8,7 +8,7 @@
 			font-weight: bolder;		
         }
 		#cardiologist{
-			background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\Cardiologist BG.png");
+			background-image: url("images\\Cardiologist BG.png");
 			border:2px ridge black;
 			width:100%;
 			display: flex;
@@ -18,7 +18,7 @@
 
 		
 		#pulmonologist{
-				background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\pulmonologist.jpg");
+				background-image: url("images\\pulmonologist.jpg");
 				width:100%;
 				border:2px ridge black;
 				display: flex;
@@ -26,7 +26,7 @@
 			   
 		}
 		#ENT{
-			background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\ENT.jpg");
+			background-image: url("images\\ENT.jpg");
 			width:100%;
 			border:2px ridge black;
 			display: flex;
@@ -34,7 +34,7 @@
             flex-direction: row-reverse;
         }
 		#orthopedics{
-			background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\orthopedic.jpg");
+			background-image: url("images\\orthopedic.jpg");
 			width:100%;
 			border:2px ridge black;
 			display: flex;
@@ -42,7 +42,7 @@
 
 		}
 		#dentist{
-			background-image: url("E:\\PRANAY\\WEB DEV\\Hospital website\\images\\dentist.jpg");
+			background-image: url("images\\dentist.jpg");
 			width:100%;
 			border:2px ridge black;
 			display: flex;
