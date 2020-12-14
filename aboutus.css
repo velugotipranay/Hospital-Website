@@ -4,13 +4,14 @@ body{
 }
 p{
     font-size:35px ;
-    font-family:times new roman;
+    font-family:Georgia;
     color:black;
     background-color:lightgray;
     opacity: 0.75;
     direction:center;
     width:80%;
     margin-left: 50px;
+    font-weight:bolder;
 }
 .active{
     color:black;
