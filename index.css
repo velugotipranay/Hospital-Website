@@ -90,7 +90,7 @@ a img:hover{
 #reduce2{
     font-size:30px;
     color:black;
-    background-color:aqua;
+   background-color:lightgray;
     border-style:solid;
     border-color: aqua;
     padding-right: 0px;
@@ -100,7 +100,7 @@ a img:hover{
 #reduce3{
     font-size:30px;
     color:black;
-    background-color:aqua;
+    background-color:lightgray;
     border-style:solid;
     border-color: aqua;
     border-style: groove;
@@ -108,7 +108,7 @@ a img:hover{
 }
 #reduce4{
     font-size:30px;color:black;
-    background-color:aqua;
+   background-color:lightgray;
     border-style:solid;
     border-color: aqua;
     border-style: groove;
@@ -117,7 +117,7 @@ a img:hover{
 #reduce5{
     font-size:30px;
     color:black;
-    background-color:aqua;
+    background-color:lightgray;
     border-style:solid;
     border-color: aqua;
     border-style: groove;
