@@ -210,7 +210,7 @@ a img:hover{
 @media(max-width:1150px){
     ul li{
     float:left;
-    width:80%;
+    width:100%;
     text-align:center;
     font-size:15px;
     }
