@@ -11,6 +11,7 @@
 		    text-decoration: none;
 		    color:white;
 		    list-style-type: none;
+		    font-style:normal;
 		}
 		ol li a:hover{
 		    color:orange;
