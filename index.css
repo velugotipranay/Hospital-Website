@@ -17,14 +17,11 @@ p{
 }
 ul {
     list-style-type: none;
-    overflow:hidden;
-  
-    
+    overflow:hidden;   
 }
 ul li{
     float:left;
     width:200px;
-    
     text-align:center;
     font-size:30px;
 }
@@ -75,6 +72,10 @@ a{
 a img:hover{
     opacity:0.85;
     color:red;
+}
+.active{
+    color:black;
+    background-color:white;
 }
 #reduce1{
     font-size:30px;
