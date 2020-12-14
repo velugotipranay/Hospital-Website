@@ -272,10 +272,10 @@ form input{
    text-transform: uppercase;
    }
 }
-@media(max-width:1400px){
+/* @media(max-width:1400px){
       .disappear{
       display: none;
-   }
+   } */
 @media(max-width:1150px){
     #box{
         background-color: black;
