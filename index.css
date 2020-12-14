@@ -76,7 +76,7 @@ a img:hover{
 #reduce1{
     font-size:30px;
     color:black;
-    
+    background-color:lightgray;
     border-style:solid;
     border-color: aqua;
     padding-right: 0px;
