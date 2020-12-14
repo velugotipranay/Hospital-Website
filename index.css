@@ -71,11 +71,12 @@ a img:hover{
     color:black;
     background-color:lightgray;
     display:block;
+    text-align:center;
 }
 #reduce1{
     font-size:30px;
     color:black;
-    background-color:aqua;
+    
     border-style:solid;
     border-color: aqua;
     padding-right: 0px;
