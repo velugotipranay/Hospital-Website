@@ -13,6 +13,12 @@ p{
     margin-left: 50px;
     font-weight:bold;
 }
+.developer{
+	font-family:Georgia;
+    color:black;
+    background-color:lightgray;
+	
+}
 .active{
     color:black;
     background-color:lightgray;
