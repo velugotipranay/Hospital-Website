@@ -1,19 +1,19 @@
 function changeColor(x){
-			x.style.backgroundColor="lime";
+			x.style.backgroundColor="aqua";
 			x.style.opacity="1.0";
 			x.style.boxShadow="10px 10px 10px black"
 			x.style.borderRadius="20px";
 		}
 		function retainColor(y){
 			y.style.opacity="0.75";
-			y.style.backgroundColor="aqua";
+			y.style.backgroundColor="lightgray";
 			y.style.color="black";
 			y.style.boxShadow="0px 0px 0px transparent"
 			y.style.borderRadius="0px";
 
 		}
 		function changethis(z){
-			z.style.backgroundColor="lime";
+			z.style.backgroundColor="aqua";
 			z.style.color="black";
 			z.style.opacity="0.85";
 		}
