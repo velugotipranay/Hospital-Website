@@ -13,12 +13,7 @@ p{
     margin-left: 50px;
     font-weight:bold;
 }
-.developer{
-	font-family:Georgia;
-    color:black;
-    background-color:lightgray;
-	
-}
+
 .active{
     color:black;
     background-color:lightgray;
@@ -30,6 +25,7 @@ p{
 	color:lime;
 	font-style:italic;
 	background-color:black;
+	font-size:25;
 	opacity:1.0;
 	direction:start;
 	margin-left:2px;
