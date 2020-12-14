@@ -25,7 +25,7 @@ p{
 	color:lime;
 	font-style:italic;
 	background-color:black;
-	font-size:25;
+	font-size:25px;
 	opacity:1.0;
 	direction:start;
 	margin-left:2px;
@@ -169,7 +169,7 @@ p a:hover{
 		opacity:1.0;
 		direction:start;
 		margin-left:2px;
-	    
+	        font-size:25px;    
                }
     
 }
