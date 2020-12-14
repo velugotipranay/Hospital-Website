@@ -209,7 +209,14 @@ a img:hover{
 }
 
 /*this  media query is for reducong size of font in footer when width is less than 1300px*/
-@media(max-width:1300px){
+@media(max-width:1150px){
+    ul li{
+    float:left;
+    width:200px;
+    background-color: wheat;
+    text-align:center;
+    font-size:15px;
+    }
     #box{
         background-color: black;
         width:100%;
