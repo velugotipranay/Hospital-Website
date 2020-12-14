@@ -6,7 +6,7 @@ p{
     font-size:35px ;
     font-family:times new roman;
     color:white;
-    background-color:transparent;
+    background-color:lightgray;
     opacity: 0.75;
     direction:center;
     width:80%;
@@ -87,14 +87,15 @@ p a:hover{
 .fontstyles{
     border-style:none;
     border-color: black;
+    backgroung-color:yellow;
     font-size:30px;
     color:black;
     margin-left:50px;
-    font-family:Century;
+    font-family:Georgia;
 
 }
 .mail{
-    background-color: transparent;
+    background-color:lightgray;
     color: black;
     font-size: 30px;
 }
@@ -103,7 +104,7 @@ p a:hover{
         font-size:25px ;
         font-family:times new roman;
         color:white;
-        background-color:red;
+        background-color:lightgray;
         opacity: 0.75;
         direction:center;
         width:80%;
@@ -120,7 +121,7 @@ p a:hover{
 
     }	
     .mail{
-        background-color: skyblue;
+        background-color:lightgray;
         color: black;
         font-size: 20px;
         border-radius: 5px;
