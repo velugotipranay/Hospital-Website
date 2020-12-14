@@ -24,7 +24,7 @@ ul {
 ul li{
     float:left;
     width:200px;
-    background-color: wheat;
+    
     text-align:center;
     font-size:30px;
 }
@@ -35,8 +35,6 @@ ul li a{
     text-align: left;
     color:black;
     font-weight: bolder;
-    
-
 }
 
 ul li a:hover{
@@ -212,8 +210,7 @@ a img:hover{
 @media(max-width:1150px){
     ul li{
     float:left;
-    width:200px;
-    background-color: wheat;
+    width:80%;
     text-align:center;
     font-size:15px;
     }
