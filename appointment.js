@@ -91,6 +91,7 @@
 	
 		function handleSpecialistImage(x){
 			document.body.style.backgroundImage="url('"+x+"')";
+                        document.body.style.backgroundRepeat=no-repeat;
 			
 		}
 		function change(a){
