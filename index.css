@@ -10,11 +10,7 @@ h1{
 h1 a{
     text-decoration: none;
 }
-p{
-    font-style:italic;
 
-    
-}
 ul {
     list-style-type: none;
     overflow:hidden;   
@@ -44,8 +40,6 @@ ul li ul li{
 }
 ul li:hover ul li{ 
     display: block;
-    
-
 }
 
 figure{
@@ -76,6 +70,7 @@ a img:hover{
 .active{
     color:black;
     background-color:white;
+    display:block;
 }
 #reduce1{
     font-size:30px;
