@@ -6,11 +6,18 @@ p{
     font-size:35px ;
     font-family:times new roman;
     color:white;
-    background-color:red;
+    background-color:transparent;
     opacity: 0.75;
     direction:center;
     width:80%;
     margin-left: 50px;
+}
+.active{
+    color:black;
+    background-color:lightgray;
+    display:block;
+    font-size:22px;
+   
 }
 #different{
 	color:lime;
@@ -80,15 +87,14 @@ p a:hover{
 .fontstyles{
     border-style:none;
     border-color: black;
-    background-color:yellow;
-    font-size:40px;
+    font-size:30px;
     color:black;
     margin-left:50px;
     font-family:Century;
 
 }
 .mail{
-    background-color: skyblue;
+    background-color: transparent;
     color: black;
     font-size: 30px;
 }
