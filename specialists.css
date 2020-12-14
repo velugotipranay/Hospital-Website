@@ -18,6 +18,13 @@
 		a{
 		    text-decoration: none;
 		} 
+		.active{
+		    color:black;
+		    background-color:lightgray;
+		    display:block;
+		    font-size:22px;
+
+		}
 		#box-0{
 		    background-color: black;
 		    width:100%;
