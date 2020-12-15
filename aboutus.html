@@ -3,6 +3,22 @@
 <head>
 	<title>CAS hospital</title>
 	<link rel="stylesheet" type="text/css" href="aboutus.css" />
+	<script src="https://kit.fontawesome.com/7a5e17e072.js" crossorigin="anonymous"></script>
+	<script>
+		function changeColor(x){
+			x.style.backgroundColor="aqua";
+			x.style.opacity="1.0";
+			x.style.boxShadow="10px 10px 10px black"
+			x.style.borderRadius="20px";
+		}
+		function retainColor(y){
+			y.style.opacity="0.75";
+			y.style.backgroundColor="lightgray";
+			y.style.color="black";
+			y.style.boxShadow="0px 0px 0px transparent"
+			y.style.borderRadius="0px";
+
+	</script>
 </head>
 <body>
 	<main>
@@ -20,7 +36,7 @@
 		    	</tr>
 	        </table><br><br><br><br><br><br><br><br>
 	<table align="center">
-		 	<font class="fontstyles" ><b><i>About us</i></b></font>
+		 	<font class="fontstyles" onmouseover="changeColor(this)" onmouseout ="retainColor(this)" ><b><i>About us</i></b></font>
 		 	<tr>
 		 		<td>
 			 	   <p> 
@@ -30,17 +46,17 @@
 			</tr>
 			<tr>
 		 	   <td>
-		 	   	  <font class="fontstyles"><b><i>Contact</i></b>&nbsp(for any queries):</font>
+		 	   	  <font class="fontstyles" onmouseover="changeColor(this)" onmouseout ="retainColor(this)"><b><i>Contact</i></b>&nbsp(for any queries):</font>
 		 	   	  <p class="mail" > 
-				 	<b><a href="mailto:pranayvelugoti@gmail.com?subject=Reagrding website &body=Enter your queries below:"><img src="images\\mail.png" alt="email icon" style="height:50px;"> &nbsp; &raquo; &nbsp; pranayvelugoti@gmail.com</a> 
+				 	<b><a href="mailto:pranayvelugoti@gmail.com?subject=Reagrding website &body=Enter your queries below:"><i class="fas fa-envelope fa-lg "style="color: black"></i><i class="fas fa-envelope fa-lg "style="color: black"></i> pranayvelugoti@gmail.com</a> 
 			 	   </p>
 		 	   	</td>
 		 	</tr>
 		 	<tr>
 		 	   <td>
-		 	   	  <font class="fontstyles"><b><i>Feedback</i></b>&nbsp:</font>
+		 	   	  <font class="fontstyles" onmouseover="changeColor(this)" onmouseout ="retainColor(this)"><b><i>Feedback</i></b>&nbsp:</font>
 		 	   	  <p class="mail" > 
-				 	<b><a href="mailto:pranayvelugoti@gmail.com?subject=Feedback for hospital website &body= Type message below"><img src="images\\mail.png" alt="email icon" style="height:50px;">&nbsp; &raquo; &nbsp; pranayvelugoti@gmail.com for <b>feedback</a></b>
+				 	<b><a href="mailto:pranayvelugoti@gmail.com?subject=Feedback for hospital website &body= Type message below"><i class="fas fa-envelope fa-lg "style="color: black"></i> pranayvelugoti@gmail.com for <b>feedback</a></b>
 			 	   </p>
 		 	   	</td>
 		 	</tr>
