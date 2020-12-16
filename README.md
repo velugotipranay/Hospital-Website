@@ -1,6 +1,6 @@
 # Hospital-Website
 Website link: https://cashospital.netlify.app/
-This is a sample website done using  HTML5,CSS.
+This is a sample website done using  HTML5,CSS and JavaScript .
 HTML5 is used here to design the elemts in the website like paragraphs, images, scrollbars , links etc.
 CSS is used  here to style all HTML elements.
 I used CSS Flexbox for creating flexible boxes in website.
