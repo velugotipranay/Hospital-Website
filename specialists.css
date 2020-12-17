@@ -50,7 +50,7 @@
 		    font-size:30px;
 		}
 		#box-4{
-		    align-self:center;
+		    align-self:flex-end ;
 		    font-size: 20px;
 
 		}
