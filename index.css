@@ -34,6 +34,7 @@ ul li a:hover{
     background-color:blue;
     color: white;
     display: block;
+    border:2px ridge blue;
 }
 ul li ul li{
     display: none;
@@ -184,11 +185,13 @@ a img:hover{
 }
 .heading{
     border:0px none black;
-    background-color:yellow;
+    background-color:lime;
     font-size:35px;
     padding-right:40px;
     margin-left:50px;
     font-family:century;
+    font-style:normal;
+    text-align: center;
     opacity: 0.9;
     width:88%;
 }
