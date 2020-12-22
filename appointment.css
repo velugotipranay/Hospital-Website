@@ -277,6 +277,14 @@ form input{
       .disappear{
       display: none;
    } 
+     #smallimg{
+         width:50px;
+         height:40px;
+     }
+     #time{
+         font-size:15px;
+     }
+     
 @media(max-width:900px){
         .input{
                width:80%;
