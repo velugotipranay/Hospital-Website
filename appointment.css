@@ -250,23 +250,14 @@ form input{
 }
 @media(max-width:900px){
    table tr td {
-   font-size: 20px;border:2px groove transparent;box-shadow:5px 5px 30px black;background-color:lime;color:black;font-weight: bolder;
+   font-size:15px;border:2px groove transparent;box-shadow:5px 5px 30px black;background-color:lime;color:black;font-weight: bolder;
    }
    table tr td h4:hover{
-      font-size: 20px;
+      font-size:15px;
       color:black;
       background-color:white;
       box-shadow:5px 5px 30px black;
    }
-    h4{
-        font-size:15px;border:2px groove transparent;box-shadow:5px 5px 30px black;background-color:lime;color:black;font-weight: bolder;
-    }
-    h4:hover{
-         font-size:15px;
-      color:black;
-      background-color:white;
-      box-shadow:5px 5px 30px black;
-    }
         
   #clock{
        display: none;
