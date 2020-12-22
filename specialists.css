@@ -217,21 +217,21 @@
 			height:80%; 
 			justify-content: space-around;
 			flex-wrap:wrap;
-			margin:0 -5px;
+			
 		    }
 		    #box-4{
 			width: 100% ;
 			flex-direction: column;
 			align-self: flex-end;
 			font-size:10px;  
-			margin:0 5px;
+			
 		    }
 		    #box-2{
 			width: 100%;
 			align-self: flex-start;
 			 flex-direction: column;
 			font-size:15px;
-			margin:0 5px;
+		
 
 		    }
 		    #box-3{
@@ -239,7 +239,7 @@
 			 flex-direction: column;
 			align-self: flex-start;
 			font-size:15px;
-			margin:0 5px;
+			
 
 		    }
 		       #box-1{
@@ -247,7 +247,7 @@
 			flex-direction: column;
 			align-self: flex-end;
 			font-size:12px;
-			   margin:0 5px;
+		
 
 		    }
 	}
