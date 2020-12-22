@@ -198,7 +198,7 @@
 			display: flex;
 			height:80%; 
 			justify-content: space-around;  
-			    flex-wrap:wrap;
+			 flex-wrap:wrap;
 		    }
 		    #box-4{
 			width: 100% ;
