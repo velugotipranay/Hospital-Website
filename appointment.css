@@ -5,10 +5,11 @@ body{
 }
 a{
    text-decoration:none;
-   color:brown	;
+   color:brown	; 
    
-   
-   
+}
+#smallheading{
+    font-size:40px;color:black ;font-family:Calibri; text-align:center;background:linear-gradient(to right,yellow,white);box-shadow:5px 0px 10px blue;
 }
 table tr td h4{
    font-size: 30px;border:2px groove transparent;box-shadow:5px 5px 30px black;background-color:lime;color:black;font-weight: bolder;
@@ -264,15 +265,9 @@ form input{
            cursor: pointer;
            background-color: yellowgreen;
 }
-    h1{
-           font-size:25px;
-           font-family:sans-serif;
-           font-weight: bolder;		
-        }
-        h1 a{
-           text-decoration: none;
-        }
-    
+#smallheading{
+    font-size:25px;color:black ;font-family:Calibri; text-align:center;background:linear-gradient(to right,yellow,white);box-shadow:5px 0px 10px blue;
+}
         
   #clock{
        display: none;
