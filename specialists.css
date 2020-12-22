@@ -138,17 +138,17 @@
 		@media(max-width:650px){
 			#box3{
 			width:100%;
-			background-color:yellow;font-size:15px ;font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bold;background-color: yellow;border:2px groove transparent;
+			background-color:white;font-size:10px ;font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bold;background-color: yellow;border:2px groove transparent;
 	
 		}
 			#box2{
-			width:50px; height:40px;
+			width:40px; height:30px;
 		}
 		#box1{
 			width:50px; height:50px;
 		}
 		#box{
-              font-size:20px;
+              		font-size:15px;
 		}
 		@media(max-width:900px){
 			#cardiologist{
@@ -176,9 +176,9 @@
 			width:100%;
 			border:2px ridge black;
 			display: flex;
-            height:500px; 
-            flex-direction: row;
-	    font-size:20px;
+			    height:500px; 
+			    flex-direction: row;
+			    font-size:20px;
         }
 		#orthopedics{
 			background-image: url("images\\orthopedic.jpg");
