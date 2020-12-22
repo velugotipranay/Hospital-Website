@@ -271,7 +271,9 @@ form input{
   #clock{
        display: none;
 
-   } 
+   }
+    #no{
+        display:none}
    .reduceSize{
       font-size:22px;
    }
