@@ -10,6 +10,7 @@ p{
     direction:center;
     width:80%;
     margin-left: 50px;
+	border-radius:10px;
     
 }
 
@@ -105,17 +106,19 @@ p a:hover{
     p{
         font-size:25px ;
         font-family:times new roman;
-        color:white;
+        color:color;
         background-color:lightgray;
         opacity: 0.75;
         direction:center;
         width:80%;
+	    border-radius:5px;
         
     }
     .fontstyles{
-        border-style:none;
+        border-style:goove;
         border-color: black;
         background-color:yellow;
+	    border-radius:5px;
         font-size:25px;
         color:black;
         margin-left:20px;
@@ -131,7 +134,7 @@ p a:hover{
         
     }
     
-    @media(max-width:1400px){
+    @media(max-width:900px){
      #box-0{
         background-color: black;
         /*width:100%;*/
