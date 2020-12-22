@@ -33,8 +33,9 @@ ul li a{
 ul li a:hover{
     background-color:blue;
     color: white;
-    display: block;
+    display: inline-block;
     border:2px ridge blue;
+    border-radius:5px;
 }
 ul li ul li{
     display: none;
