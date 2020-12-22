@@ -258,6 +258,21 @@ form input{
       background-color:white;
       box-shadow:5px 5px 30px black;
    }
+    input[type="submit"]{
+           width:80%;
+           height: 40px;
+           cursor: pointer;
+           background-color: yellowgreen;
+}
+    h1{
+           font-size:25px;
+           font-family:sans-serif;
+           font-weight: bolder;		
+        }
+        h1 a{
+           text-decoration: none;
+        }
+    
         
   #clock{
        display: none;
