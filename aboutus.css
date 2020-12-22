@@ -108,13 +108,14 @@ p a:hover{
     p{
         font-size:25px ;
         font-family:times new roman;
-        color:color;
+      
         background-color:lightgray;
         opacity: 0.75;
         direction:center;
         width:100%;
 	    border-radius:5px;
         font-weight:bold;
+        margin-left:0px;
         
     }
     .fontstyles{
