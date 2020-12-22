@@ -323,6 +323,7 @@ form input{
         height:80%; 
         justify-content: space-around;
         flex-wrap:wrap;
+        font-size:20px;
     }
     #box-4{
         width: 100% ;
