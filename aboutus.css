@@ -95,6 +95,7 @@ p a:hover{
     color:black;
     margin-left:50px;
     font-family:Georgia;
+    font-weight:bold;
 
 }
 .mail{
@@ -123,6 +124,7 @@ p a:hover{
         color:black;
         margin-left:20px;
         font-family:Century;
+        font-weight:bold;
 
     }	
     .mail{
