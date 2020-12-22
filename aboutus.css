@@ -11,6 +11,7 @@ p{
     width:80%;
     margin-left: 50px;
 	border-radius:10px;
+       font-weight:bold;
     
 }
 
@@ -95,7 +96,7 @@ p a:hover{
     color:black;
     margin-left:50px;
     font-family:Georgia;
-    font-weight:bold;
+    font-weight:bolder;
 
 }
 .mail{
@@ -113,6 +114,7 @@ p a:hover{
         direction:center;
         width:80%;
 	    border-radius:5px;
+        font-weight:bold;
         
     }
     .fontstyles{
@@ -124,7 +126,7 @@ p a:hover{
         color:black;
         margin-left:20px;
         font-family:Century;
-        font-weight:bold;
+        font-weight:bolder;
 
     }	
     .mail{
