@@ -135,17 +135,17 @@
 		#box{
             	  font-size:30px;
 		}
-		@media(max-width:650px){
+		@media(max-width:900px){
 			#box3{
 			width:100%;
 			background-color:white;font-size:10px ;font-family:Georgia, 'Times New Roman', Times, serif;font-weight: bold;background-color: yellow;border:2px groove transparent;
 	
-		}
+			}
 			#box2{
 			width:40px; height:30px;
 		}
 		#box1{
-			width:40px; height:30px;
+			width:30px; height:30px;
 		}
 		#box{
               		font-size:15px;
@@ -154,7 +154,6 @@
 			width:100%;
 			flex-wrap:wrap;
 		}
-		@media(max-width:900px){
 			#cardiologist{
 			background-image: url("images\\Cardiologist BG.png");
 			border:2px ridge black;
