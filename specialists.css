@@ -148,12 +148,16 @@
 			width:30px; height:30px;
 		}
 		#box{
-              		font-size:15px;
-			display:flex;
-			justify-content:space-around;
-			width:100%;
-			flex-wrap:wrap;
+              		font-size:20px;
+			
 		}
+			#box0{
+				display:flex;
+				justify-content:space-around;
+				width:100%;
+				flex-wrap:wrap;
+			}
+			
 			#cardiologist{
 			background-image: url("images\\Cardiologist BG.png");
 			border:2px ridge black;
