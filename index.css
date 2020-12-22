@@ -216,7 +216,7 @@ a img:hover{
         height:80%; 
         justify-content: space-around;
         flex-wrap: wrap;  
-        align-items:center;
+        align-content:center;
   
     }
     #box-4{
