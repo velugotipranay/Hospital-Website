@@ -97,6 +97,7 @@ a img:hover{
     padding-right: 0px;
     border-style: groove;
     opacity: 0.75;padding: 15px;width: 90%;
+    font-weight:bold;
 }
 #reduce3{
     font-size:30px;
@@ -106,6 +107,7 @@ a img:hover{
     border-color: aqua;
     border-style: groove;
     opacity: 0.75;padding: 15px;width: 90%;
+    font-weight:bold;
 }
 #reduce4{
     font-size:30px;color:black;
@@ -113,7 +115,8 @@ a img:hover{
     border-style:solid;
     border-color: aqua;
     border-style: groove;
-    opacity: 0.75;padding: 15px;width: 90%;    
+    opacity: 0.75;padding: 15px;width: 90%; 
+    font-weight:bold;
 }
 #reduce5{
     font-size:30px;
@@ -122,7 +125,8 @@ a img:hover{
     border-style:solid;
     border-color: aqua;
     border-style: groove;
-    opacity: 0.75;padding: 15px;width: 90%;    
+    opacity: 0.75;padding: 15px;width: 90%;
+    font-weight:bold;
 }
 /*this 'id' is for not displaying flex untill max height is 300px*/
 #small-box{
@@ -243,18 +247,23 @@ a img:hover{
     }
     #reduce1{
         font-size:15px;
+        font-weight:bold;
     }
     #reduce2{
         font-size:15px;
+        font-weight:bold;
     }
     #reduce3{
         font-size:15px;
+        font-weight:bold;
     }
     #reduce4{
         font-size:15px;
+        font-weight:bold;
     }
     #reduce5{
         font-size:15px;
+        font-weight:bold;
     }
 
 }
