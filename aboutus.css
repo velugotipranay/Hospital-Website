@@ -112,7 +112,7 @@ p a:hover{
         background-color:lightgray;
         opacity: 0.75;
         direction:center;
-        width:80%;
+        width:100%;
 	    border-radius:5px;
         font-weight:bold;
         
@@ -135,6 +135,7 @@ p a:hover{
         font-size: 20px;
         border-radius: 5px;
         box-shadow:red;
+
         
     }
     
