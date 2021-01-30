@@ -168,7 +168,7 @@ form input{
    
 }
 form{
-    box-shadow:10px 10px 10px 20px ;
+    box-shadow:10px 0px 0px 10px lightgray;
 }
 
    input[type="reset"]:hover{
