@@ -67,7 +67,7 @@ a{
    
 }
 .border{
-   border: 2px solid transparent;
+   border: 2px solid blue;
    background: url("images\\BG 7.png");
    background-size:cover;
    background-position: left;	
@@ -169,7 +169,7 @@ form input{
 }
 form{
     box-shadow:5px 5px 30px black;
-    border-color:transparent;
+    border-color:black;
 }
 
    input[type="reset"]:hover{
