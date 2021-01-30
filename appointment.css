@@ -67,7 +67,7 @@ a{
    
 }
 .border{
-   border: 2px solid blue;
+   border: 2px solid transparent;
    background: url("images\\BG 7.png");
    background-size:cover;
    background-position: left;	
