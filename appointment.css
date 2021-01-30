@@ -169,6 +169,7 @@ form input{
 }
 form{
     box-shadow:5px 5px 30px black;
+    border-color:transparent;
 }
 
    input[type="reset"]:hover{
